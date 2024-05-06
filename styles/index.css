@@ -69,6 +69,7 @@ img {
 }
 
 .card--purple {
+  position: relative;
   background: var(--moderate-violet);
 }
 
@@ -96,6 +97,15 @@ img {
 
 .attribution {
   color: var(--very-dark-grayish-blue);
+}
+
+.quote-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 107px;
+  height: 103px;
+  background: url("../assets/img/bg-pattern-quotation.svg") no-repeat;
 }
 
 @media only screen and (min-width: 758px) {
