@@ -46,6 +46,12 @@ img {
   border-radius: 50%;
 }
 
+
+
+.attribution {
+  color: var(--very-dark-grayish-blue);
+}
+
 .testimonial-grid {
   max-width: 1115px;
   margin: 0 24px;
@@ -59,6 +65,10 @@ img {
   padding: 23px 30px 30px 30px;
   border-radius: 7px;
   background: var(--White);
+}
+
+.card__title {
+  margin-bottom: 17px;
 }
 
 .card__user {
@@ -87,25 +97,64 @@ img {
   color: var(--White);
 }
 
-.card--purple img {
+.card--purple .card__user__photo {
   border: 2px solid rgb(161 126 216);
 }
 
-.card .card__title {
-  margin-bottom: 17px;
+.card--purple .card__user__info__name {
+  color: rgb(253 217 255);
 }
 
-.attribution {
-  color: var(--very-dark-grayish-blue);
+.card--purple .card__user__info__status {
+  color: rgb(253 217 255 / 50%);
 }
 
-.quote-bg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 107px;
-  height: 103px;
-  background: url("../assets/img/bg-pattern-quotation.svg") no-repeat;
+.card--purple .card__review {
+  color: rgb(253 217 255 / 70%);
+}
+
+.card--grey .card__user__photo {
+  border: 2px solid hsla(217, 30%, 14%, 0.233);
+}
+
+.card--grey .card__user__info__status {
+  color: rgb(207 207 207 / 50%);
+}
+
+.card--grey .card__review {
+  color: rgb(207 207 207 / 70%);
+}
+
+.card--white .card__user__photo {
+  border: 2px solid rgba(82, 89, 97, 0.63);
+}
+
+.card--white .card__user__info__name {
+  color: rgb(82 89 97);
+}
+
+.card--white .card__user__info__status {
+  color: rgb(82 89 97 / 50%);
+}
+
+.card--white .card__review {
+  color: rgb(82 89 97 / 70%);
+}
+
+.card--blue .card__user__photo {
+  border: 2px solid var(--moderate-violet);
+}
+
+.card--blue .card__user__info__name {
+  color: rgb(207, 207, 207);
+}
+
+.card--blue .card__user__info__status {
+  color: rgb(207, 207, 207 / 50%);
+}
+
+.card--blue .card__review {
+  color: rgb(207, 207, 207 / 70%);
 }
 
 @media only screen and (min-width: 758px) {
