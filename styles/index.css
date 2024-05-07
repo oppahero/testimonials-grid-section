@@ -47,10 +47,10 @@ img {
 }
 
 .bg-container {
+  margin-right: 24px;
   position: absolute;
   top: 0;
   right: 0;
-  margin-right: 24px;
 }
 
 .attribution {
@@ -59,17 +59,17 @@ img {
 
 .testimonial-grid {
   max-width: 1115px;
-  margin: 0 24px;
+  margin: 0 24px 20px 24px;
   display: grid;
   column-gap: 30px;
   row-gap: 24px;
-  margin-bottom: 20px;
 }
 
 .card {
   padding: 23px 30px 30px 30px;
   border-radius: 7px;
   background: var(--White);
+  box-shadow: 2px 2px 1rem var(--light-gray);
 }
 
 .card__title {
