@@ -46,7 +46,12 @@ img {
   border-radius: 50%;
 }
 
-
+.bg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 24px;
+}
 
 .attribution {
   color: var(--very-dark-grayish-blue);
@@ -95,6 +100,8 @@ img {
 .card--grey .card__title,
 .card--blue .card__title {
   color: var(--White);
+  position: relative;
+  z-index: 1;
 }
 
 .card--purple .card__user__photo {
@@ -158,6 +165,10 @@ img {
 }
 
 @media only screen and (min-width: 758px) {
+  .bg-container {
+    margin-right: 30px;
+  }
+
   .testimonial-grid {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -189,6 +200,10 @@ img {
 }
 
 @media only screen and (min-width: 1000px) {
+  .bg-container {
+    margin-right: 70px;
+  }
+
   .testimonial-grid {
     grid-template-columns: repeat(4, 1fr);
   }
