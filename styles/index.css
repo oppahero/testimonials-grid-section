@@ -66,10 +66,10 @@ img {
 }
 
 .card {
-  padding: 23px 30px 30px 30px;
+  padding: 23px 30px 23px 30px;
   border-radius: 7px;
-  background: var(--White);
   box-shadow: 2px 2px 1rem var(--light-gray);
+  background: var(--White);
 }
 
 .card__title {
@@ -77,7 +77,7 @@ img {
 }
 
 .card__user {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
   gap: 15px;
